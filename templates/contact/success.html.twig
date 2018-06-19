@@ -1,0 +1,10 @@
+<h1>Successfully created contact</h1>
+
+<p>First name: {{ contact.getFirstName() }}</p>
+<p>Last name: {{ contact.getLastName() }}</p>
+<p>Address: {{ contact.getAddress() }}</p>
+<p>Phone: {{ contact.getPhone() }}</p>
+<p>Birthday: {{ contact.getBirthday()|date('M j, Y') }}</p>
+<p>Commented: {{ contact.getComment() }}</p>
+
+<a href="{{ path('app_contact_form') }}">Create new contact</a>

@@ -1,0 +1,7 @@
+app_contact_form:
+    path: /
+    controller: App\Controller\ContactController::new
+
+success:
+    path: success
+    controller: App\Controller\ContactController::success
